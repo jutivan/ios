@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iD2-Bi-lPN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Ha5-lO-4b5">
+            <objects>
+                <navigationController id="iD2-Bi-lPN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Bf-ui-q9h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ifk-JT-F9x" kind="relationship" relationship="rootViewController" id="lI9-Od-ZIj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f0u-Ql-U8r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-335" y="123"/>
+        </scene>
+        <!--Tela Inicial-->
+        <scene sceneID="zvW-II-8hQ">
+            <objects>
+                <viewController id="Ifk-JT-F9x" customClass="TelaInicialViewController" customModule="ProvaPSPronta" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="25l-wn-u8u"/>
+                        <viewControllerLayoutGuide type="bottom" id="scl-ay-UWb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Rq-nw-bsQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZI-Eo-Ccy">
+                                <rect key="frame" x="128" y="190" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mostrar Detalhes"/>
+                                <connections>
+                                    <segue destination="hSR-gl-YVo" kind="showDetail" identifier="telaInicialParaTelaAlunoSegue" id="nVk-Kg-1JJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6R-gf-mjV">
+                                <rect key="frame" x="147" y="344" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tela normal"/>
+                                <connections>
+                                    <segue destination="Ayl-Ob-kWn" kind="show" identifier="telaInicialParaTelaMenuWebSegue" id="moH-CE-I7g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tela Inicial" id="GKw-mZ-Glg">
+                        <barButtonItem key="backBarButtonItem" title="Voltar" id="z6m-Rc-0Dh"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bcm-kr-mXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431" y="58"/>
+        </scene>
+        <!--Tela Aluno View Controller-->
+        <scene sceneID="Ugs-r8-K6x">
+            <objects>
+                <viewController id="hSR-gl-YVo" customClass="TelaAlunoViewController" customModule="ProvaPSPronta" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dLN-z7-ULQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="udp-70-ECg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9g7-SW-Kcj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Digite seu nome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9w1-LN-1cd">
+                                <rect key="frame" x="33" y="114" width="124" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="qJb-Kj-iCl">
+                                <rect key="frame" x="254" y="243" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stepperValueChanged:" destination="hSR-gl-YVo" eventType="valueChanged" id="dhL-5S-i2v"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nota da PS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDg-Ja-vUP">
+                                <rect key="frame" x="33" y="251" width="86" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nota" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZe-Fx-0VU">
+                                <rect key="frame" x="169" y="251" width="34" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BA5-kh-Qt8">
+                                <rect key="frame" x="162" y="28" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fechar"/>
+                                <connections>
+                                    <segue destination="vHY-No-gih" kind="unwind" unwindAction="resetarNavegacaoWithSegue:" id="TFL-Pt-P8x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nmx-Sa-B8r">
+                                <rect key="frame" x="119" y="364" width="143" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mostrar nome e nota"/>
+                                <connections>
+                                    <action selector="btnMostrarNomeNota:" destination="hSR-gl-YVo" eventType="touchUpInside" id="dmd-Cu-Iv9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label para nome e nota" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyS-ll-1by">
+                                <rect key="frame" x="33" y="447" width="315" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ihn-n7-5Z5">
+                                <rect key="frame" x="33" y="143" width="326" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblNomeNota" destination="lyS-ll-1by" id="5n7-vX-fPa"/>
+                        <outlet property="lblNota" destination="uZe-Fx-0VU" id="3uA-0a-LcJ"/>
+                        <outlet property="stepperNota" destination="qJb-Kj-iCl" id="99Y-av-src"/>
+                        <outlet property="txtNome" destination="Ihn-n7-5Z5" id="zFe-Pw-UOf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8S-gD-gHq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="vHY-No-gih" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1212" y="-106.59670164917542"/>
+        </scene>
+        <!--Menu para web-->
+        <scene sceneID="zxu-mJ-V8R">
+            <objects>
+                <viewController id="Ayl-Ob-kWn" customClass="TelaMenuWebViewController" customModule="ProvaPSPronta" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X6e-iJ-zG6"/>
+                        <viewControllerLayoutGuide type="bottom" id="z1v-rd-hZ4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bS4-Tn-gPx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZON-1r-Y0D">
+                                <rect key="frame" x="71" y="318" width="233" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mostrar conteudo web por codigo"/>
+                                <connections>
+                                    <action selector="mostrarTelaWebViewPorCodigo:" destination="Ayl-Ob-kWn" eventType="touchUpInside" id="Q1a-6Q-Qus"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Menu para web" id="ZS6-nl-7MO">
+                        <barButtonItem key="backBarButtonItem" title="Voltar" id="TxT-EW-6oz"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="MkN-BZ-GCn" kind="show" identifier="telaMenuWebParaTelaWebViewSegue" id="HNk-pd-mYs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mXf-Yq-0tz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1212" y="595.95202398800609"/>
+        </scene>
+        <!--Pagina Vive-->
+        <scene sceneID="5NL-Ix-9yb">
+            <objects>
+                <viewController id="MkN-BZ-GCn" customClass="TelaWebViveViewController" customModule="ProvaPSPronta" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jq5-Rz-q7J"/>
+                        <viewControllerLayoutGuide type="bottom" id="Eig-oD-KfC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ay5-9y-jA9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hMt-tI-Yy9">
+                                <rect key="frame" x="16" y="72" width="343" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="y7G-DE-CxX">
+                                <rect key="frame" x="177" y="349" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pagina Vive" id="91V-pS-pnN">
+                        <barButtonItem key="backBarButtonItem" title="Voltar" id="ynb-4h-eLU"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="meuActivity" destination="y7G-DE-CxX" id="Ry9-s4-NYi"/>
+                        <outlet property="meuWebView" destination="hMt-tI-Yy9" id="Cl8-0q-5p2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wci-R7-EgF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1996" y="595.95202398800609"/>
+        </scene>
+    </scenes>
+</document>

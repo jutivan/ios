@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D74167D71EE1233200171E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74167D61EE1233200171E9E /* AppDelegate.swift */; };
+		D74167DC1EE1233300171E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74167DA1EE1233300171E9E /* Main.storyboard */; };
+		D74167DE1EE1233300171E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74167DD1EE1233300171E9E /* Assets.xcassets */; };
+		D74167E11EE1233300171E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74167DF1EE1233300171E9E /* LaunchScreen.storyboard */; };
+		D74167E91EE1297400171E9E /* TelaInicialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74167E81EE1297400171E9E /* TelaInicialViewController.swift */; };
+		D74167EB1EE12C8B00171E9E /* TelaAlunoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74167EA1EE12C8B00171E9E /* TelaAlunoViewController.swift */; };
+		D74167EF1EE1372100171E9E /* TelaMenuWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74167EE1EE1372100171E9E /* TelaMenuWebViewController.swift */; };
+		D74167F11EE13B0D00171E9E /* TelaWebViveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74167F01EE13B0D00171E9E /* TelaWebViveViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D74167D31EE1233200171E9E /* ProvaPSPronta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvaPSPronta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74167D61EE1233200171E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D74167DB1EE1233300171E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D74167DD1EE1233300171E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D74167E01EE1233300171E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D74167E21EE1233300171E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74167E81EE1297400171E9E /* TelaInicialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaInicialViewController.swift; sourceTree = "<group>"; };
+		D74167EA1EE12C8B00171E9E /* TelaAlunoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaAlunoViewController.swift; sourceTree = "<group>"; };
+		D74167EE1EE1372100171E9E /* TelaMenuWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaMenuWebViewController.swift; sourceTree = "<group>"; };
+		D74167F01EE13B0D00171E9E /* TelaWebViveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaWebViveViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74167D01EE1233200171E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74167CA1EE1233200171E9E = {
+			isa = PBXGroup;
+			children = (
+				D74167D51EE1233200171E9E /* ProvaPSPronta */,
+				D74167D41EE1233200171E9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74167D41EE1233200171E9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74167D31EE1233200171E9E /* ProvaPSPronta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74167D51EE1233200171E9E /* ProvaPSPronta */ = {
+			isa = PBXGroup;
+			children = (
+				D74167D61EE1233200171E9E /* AppDelegate.swift */,
+				D74167DA1EE1233300171E9E /* Main.storyboard */,
+				D74167DD1EE1233300171E9E /* Assets.xcassets */,
+				D74167DF1EE1233300171E9E /* LaunchScreen.storyboard */,
+				D74167E21EE1233300171E9E /* Info.plist */,
+				D74167E81EE1297400171E9E /* TelaInicialViewController.swift */,
+				D74167EA1EE12C8B00171E9E /* TelaAlunoViewController.swift */,
+				D74167EE1EE1372100171E9E /* TelaMenuWebViewController.swift */,
+				D74167F01EE13B0D00171E9E /* TelaWebViveViewController.swift */,
+			);
+			path = ProvaPSPronta;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74167D21EE1233200171E9E /* ProvaPSPronta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74167E51EE1233300171E9E /* Build configuration list for PBXNativeTarget "ProvaPSPronta" */;
+			buildPhases = (
+				D74167CF1EE1233200171E9E /* Sources */,
+				D74167D01EE1233200171E9E /* Frameworks */,
+				D74167D11EE1233200171E9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProvaPSPronta;
+			productName = ProvaPSPronta;
+			productReference = D74167D31EE1233200171E9E /* ProvaPSPronta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74167CB1EE1233200171E9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dev;
+				TargetAttributes = {
+					D74167D21EE1233200171E9E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D74167CE1EE1233200171E9E /* Build configuration list for PBXProject "ProvaPSPronta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D74167CA1EE1233200171E9E;
+			productRefGroup = D74167D41EE1233200171E9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74167D21EE1233200171E9E /* ProvaPSPronta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74167D11EE1233200171E9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74167E11EE1233300171E9E /* LaunchScreen.storyboard in Resources */,
+				D74167DE1EE1233300171E9E /* Assets.xcassets in Resources */,
+				D74167DC1EE1233300171E9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74167CF1EE1233200171E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74167EB1EE12C8B00171E9E /* TelaAlunoViewController.swift in Sources */,
+				D74167F11EE13B0D00171E9E /* TelaWebViveViewController.swift in Sources */,
+				D74167E91EE1297400171E9E /* TelaInicialViewController.swift in Sources */,
+				D74167EF1EE1372100171E9E /* TelaMenuWebViewController.swift in Sources */,
+				D74167D71EE1233200171E9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D74167DA1EE1233300171E9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74167DB1EE1233300171E9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D74167DF1EE1233300171E9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74167E01EE1233300171E9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D74167E31EE1233300171E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D74167E41EE1233300171E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74167E61EE1233300171E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProvaPSPronta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiap.ProvaPSPronta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D74167E71EE1233300171E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProvaPSPronta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiap.ProvaPSPronta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74167CE1EE1233200171E9E /* Build configuration list for PBXProject "ProvaPSPronta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74167E31EE1233300171E9E /* Debug */,
+				D74167E41EE1233300171E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74167E51EE1233300171E9E /* Build configuration list for PBXNativeTarget "ProvaPSPronta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74167E61EE1233300171E9E /* Debug */,
+				D74167E71EE1233300171E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74167CB1EE1233200171E9E /* Project object */;
+}
